@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+/*This is a comment in CSS */
+/* CSS Syntax:
+selector {
+property: value;
+
+property: value;
+}
+*/
+/* Type Selector
+p{} (select all P elements)
+*/
+p {
+  font-size: 16px;
+  line-height:1.5em ; /*can be pt,%,em*/
+}
+figcaption {
+  font: normal 0.75em/1.5em 'Gaegu', cursive;
+  color: #777;
+  text-align: right;
+}
+
+.milk-text { /*select elements with milk-text class*/
+  font: bold 2.6em 'Gaegu',cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+
+}
